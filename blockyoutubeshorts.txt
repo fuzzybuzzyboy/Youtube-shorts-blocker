@@ -1,0 +1,20 @@
+! block youtube shorts
+www.youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+! block youtube shorts from youtube channels
+www.youtube.com##yt-tab-shape.yt-tab-shape-wiz:nth-child(3)
+! block youtube shorts from home page sidebar
+www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(1) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(2) > a:nth-child(1)
+www.youtube.com##ytd-mini-guide-entry-renderer.style-scope:nth-child(2)
+! block youtube kids from home page sidebar
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(4) > a:nth-child(1) > tp-yt-paper-item:nth-child(1) > yt-formatted-string:nth-child(3)
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(4) > a:nth-child(1) > tp-yt-paper-item:nth-child(1)
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(4) > a:nth-child(1)
+! block youtube premium from home page sidebar
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(1) > a:nth-child(1) > tp-yt-paper-item:nth-child(1) > yt-formatted-string:nth-child(3)
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(1) > a:nth-child(1) > tp-yt-paper-item:nth-child(1)
+www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(4) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(1) > a:nth-child(1)
+! block 'explore new blah blah'
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
