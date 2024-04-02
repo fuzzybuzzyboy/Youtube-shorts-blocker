@@ -2,8 +2,9 @@
 www.youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-! block youtube shorts from youtube channels
-www.youtube.com##yt-tab-shape.yt-tab-shape-wiz:nth-child(3)
+! block youtube shorts tab from youtube channels
+www.youtube.com##yt-tab-shape.yt-tab-shape-wiz:has-text(/^shorts$/i)
+!! www.youtube.com##yt-tab-shape.yt-tab-shape-wiz:nth-child(3)
 ! block youtube shorts from home page sidebar
 www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
 www.youtube.com##ytd-guide-section-renderer.style-scope:nth-child(1) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(2) > a:nth-child(1)
